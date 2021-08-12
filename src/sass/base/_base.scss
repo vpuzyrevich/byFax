@@ -1,0 +1,87 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+        color: #fff;
+    }
+}
+
+.lang-bar {
+    height: 30px;
+    width: 123px;
+    border: 1px solid #2d556c;
+    border-radius: 8px;
+    background-color: #092430;
+    .eng {
+        padding-left: 10px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        .check {
+            background-color: #2d556c;
+            height: 29px;
+            width: 30px;
+            border-radius: 0 7px 7px 0;
+            padding: 2px 0 0 10px;
+        }
+        ::after {
+            content: url(../../icons/check_1.png);   
+        }
+        a:after {
+            display: none;
+        }  
+    }
+    :hover {
+        cursor: pointer;
+    }
+    a {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    .lang-list {
+        position: absolute;
+        width: 123px;
+        display: none;
+        list-style-type: none;
+        padding: 10px 0 0 10px;
+        background-color: #092430;
+        border-radius: 0 0 8px 8px;  
+    }
+    .list-open {
+        display: block;
+    }
+}
+
+
+.btn {
+    width: 244px;
+    height: 45px;
+    background-color: #cee355;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px #7e9111, 0 10px #1f4a61;
+    font-size: 16px;
+    color: rgb(57, 64, 1);
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}

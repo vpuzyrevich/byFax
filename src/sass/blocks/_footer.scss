@@ -1,0 +1,72 @@
+.footer {
+    height: 105px;
+    background-color: #0f303f;
+    &__wrapper {
+        height: 105px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        margin-right: 40px;
+    }
+    &__byfax {
+        display: none;
+    }
+    &__copy {
+        color: #2c5871;
+    }
+    &__policy {
+        font-size: 16px;
+        margin-left: 20px;
+        text-decoration: none;
+        color: #2c5871;
+        text-transform: none;
+        &:hover {
+            color: #2c5871;
+            text-decoration: underline;
+        }
+    }
+    &__line {
+        height: 18px;
+        border-left: 2px solid #2c5871;
+        margin-right: 7px;
+        margin-left: 5px;
+    }
+    &__specification {
+        font-size: 16px;
+        color: #2c5871;
+        text-decoration: none;
+        text-transform: none;
+        &:hover {
+            color: #2c5871;
+            text-decoration: underline;
+        }
+    }
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        &-dark {
+            display: none;
+        }
+    }
+    &__social-item {
+        margin-left: 5px;
+        width: 33px;
+        height: 33px;
+        border-radius: 100%;
+        border: 2px solid #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:nth-child(2) {
+            background-color: #2ab8c5;
+            border: none;
+        }
+    }
+}

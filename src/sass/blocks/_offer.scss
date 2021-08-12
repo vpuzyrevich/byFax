@@ -1,0 +1,106 @@
+.offer {
+    padding-top: 110px;
+    height: 586px;
+    background: url(../../img/offer-bg.jpg) center (center/cover) no-repeat;
+    &__wrapper {
+        position: relative;
+    }
+    &__block {
+        width: 539px;
+    }
+    &__subtitle {
+        position: relative;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: italic;
+        color: #cee355;
+        text-align: center;
+        &::before {
+            content: url(../../icons/speaker.png);
+            position: absolute;
+            top: -18px;
+            left: 65px;
+        }
+    }
+    &__title {
+        margin-top: 15px;
+        font-size: 48px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__descr {
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    .btn {
+        display: block;
+        margin: 40px auto 0 auto;
+    }
+    &__circle {
+        position: absolute;
+        width: 335px;
+        top: 72px;
+        left: 640px;
+        &-title {
+            font-size: 18px;
+            font-weight: 800;
+            color: rgb(193, 214, 75);
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 24px;
+        }
+        &-descr {
+            margin-top: 20px;
+            font-size: 14px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            line-height: 28px;
+        }
+
+    }
+    &__icons {
+        position: relative;
+    }
+    &__icon {
+        position: absolute;
+        width: 100px;
+        &:nth-child(1) {
+            top: -232px;
+            left: 607px;
+        }
+        &:nth-child(2) {
+            top: -343px;
+            left: 774px;
+        }
+        &:nth-child(3) {
+            top: -232px;
+            left: 947px;
+        }
+        &:nth-child(4) {
+            top: -53px;
+            left: 949px;
+        }
+        &:nth-child(5) {
+            top: 48px;
+            left: 774px;
+        }
+        &:nth-child(6) {
+            top: -53px;
+            left: 606px;
+        }
+        &_active {
+            position: relative;
+            &::before {
+                position: absolute;
+                content: url(../../icons/globe_active.png);
+            }
+        }
+        
+    }
+    
+}

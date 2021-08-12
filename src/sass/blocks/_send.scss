@@ -1,0 +1,80 @@
+.send {
+    position: relative;
+    min-height: 575px;
+    padding-top: 75px;
+    &__title {
+        font-size: 58px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: #224a60;
+    }
+    &__subtitle {
+        font-size: 22px;
+        font-weight: 400;
+        font-style: italic;
+        text-align: center;
+        color: #224a60;
+        line-height: 24px;
+    }
+    &__block {
+        margin-top: 53px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 200px;
+        &-icon {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+        &-title {
+            margin-top: 24px;
+            font-size: 22px;
+            font-family: 'Bebas Neue Cyrillic';
+            font-weight: bold;
+            color: rgb(44, 88, 113);
+            line-height: 27px;
+            text-align: center;  
+        }
+        &-descr {
+            margin-top: 27px;
+            font-size: 14px;
+            font-weight: 400;
+            color: #7b7b7b;
+            text-align: center;
+        }
+    }
+    &__arrow {
+        height: 27px;
+        margin-top: 46px;
+    }
+    &__circle {
+        position: absolute;
+        left: 46%;
+        bottom: -40px;
+        width: 85px;
+        height: 85px;
+        background-color: #fff;
+        border-radius: 100%;
+        span {
+            position: absolute;
+            bottom: 12px;
+            display: block;
+            width: 2px;
+            height: 17px;
+            left: 44%;
+            background-color: #11374c;
+            &:nth-child(1) {
+                transform: rotate(45deg);
+                margin-left: 10px;
+            }
+            &:nth-child(2) {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+}

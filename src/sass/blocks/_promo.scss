@@ -1,0 +1,94 @@
+.promo {
+    height: 707px;
+    background: url(../../img/promo-bg.jpg) center (center/cover) no-repeat;
+    &__menu {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        height: 70px;
+        width: 211px;
+        display: block;
+    }
+    &__nav {
+        margin-bottom: 0;
+        padding: 0;
+        width: 590px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        
+    }
+    
+    &__nav-link {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        text-decoration: none;
+        color: #ffffff;
+        &:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+    }
+    .item-active {
+        padding: 6px 15px 6px 15px;
+        background-color: #c1d64b;
+        border-radius: 30px;
+        .promo__nav-link {
+            color: #394000;
+            text-decoration: none;
+        }
+    }
+    &__social {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__social-item {
+        margin-left: 5px;
+        width: 33px;
+        height: 33px;
+        border-radius: 100%;
+        border: 2px solid #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:nth-child(2) {
+            background-color: #2ab8c5;
+            border: none;
+        }
+    }
+    &__wrapper {
+        margin-top: 70px;
+    }
+    &__title {
+        font-size: 72px;
+        font-family: 'Bebas Neue Cyrillic';
+        font-weight: 700;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        text-align: left;  
+        line-height: 75px;
+    }
+    &__subtitle {
+        font-family: 'Bebas Neue Cyrillic';
+        font-size: 45px;
+        font-weight: 400;
+        color: #c1d64b;
+    }
+    &__descr {
+        width: 505px;
+        margin-top: 15px;
+        margin-bottom: 45px;
+        font-size: 21px;
+        color: rgb(214, 220, 224);
+        font-style: italic;
+        line-height: 30px;
+        line-height: 30px;              
+    }
+
+}
