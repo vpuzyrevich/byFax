@@ -19,9 +19,6 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // check.addEventListener('click', () => {
-    //     lang.classList.toggle('list-open');
-    // });
 
     // Tabs Menu
 
